@@ -28,6 +28,10 @@ Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Shared.Editor.ref.dll_9669F6E
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.Editor.ref.dll_E03858E727F23F6F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.ref.dll_D91762B7076BE462.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.Editor.ref.dll_ABFC049C4594FF75.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.ref.dll_3CA2B461938B5BFC.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.Editor.ref.dll_13D11C44DBE92115.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.ref.dll_96C656129EF9A05C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.Editor.ref.dll_7BA8CC5454F13E52.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.ref.dll_404BC0C35449934F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Oculus.Editor.ref.dll_EC6E1675CFAEEAAC.mvfrm
@@ -125,4 +129,4 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.VirtualTexturingModule.dll_344CB8BF0E4F
 Library\Bee\artifacts\mvdfrm\UnityEngine.VRModule.dll_603B5D958FB55005.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.WindModule.dll_61C38B9C4540E3C1.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XRModule.dll_92FA209A18EF9D63.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_ED46B2B022F64C66.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_4BB6BB08BB046F8D.mvfrm
