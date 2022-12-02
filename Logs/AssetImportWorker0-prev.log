@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'fr' Physical Memory: 7934 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16145 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/roman/OneDrive/Documents/GitHub/VR-Project-SB2.4
+C:/Users/sandr/OneDrive/Documents/GitHub/VR-Project-SB2.4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55696
-Successfully changed project path to: C:/Users/roman/OneDrive/Documents/GitHub/VR-Project-SB2.4
-C:/Users/roman/OneDrive/Documents/GitHub/VR-Project-SB2.4
+54261
+Successfully changed project path to: C:/Users/sandr/OneDrive/Documents/GitHub/VR-Project-SB2.4
+C:/Users/sandr/OneDrive/Documents/GitHub/VR-Project-SB2.4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,74 +47,74 @@ C:/Users/roman/OneDrive/Documents/GitHub/VR-Project-SB2.4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 120.01 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 1.08 ms.
+Refreshing native plugins compatible for Editor in 184.54 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 2.15 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/roman/OneDrive/Documents/GitHub/VR-Project-SB2.4/Assets
+[Subsystems] Discovering subsystems at path C:/Users/sandr/OneDrive/Documents/GitHub/VR-Project-SB2.4/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
-    Vendor:   Intel
-    VRAM:     3967 MB
-    Driver:   30.0.100.9864
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1700
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006540 seconds.
+Registered in 0.016492 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.73 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 137.44 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  1.128 seconds
 Domain Reload Profiling:
-	ReloadAssembly (785ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (1129ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (572ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010692 seconds.
+Registered in 0.019032 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\roman\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\roman\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sandr\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sandr\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.40 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 169.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\roman\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\roman\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\sandr\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sandr\OneDrive\Documents\GitHub\VR-Project-SB2.4\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
    --- End of inner exception stack trace ---
@@ -128,43 +128,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
+- Completed reload, in  2.098 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1328ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (2099ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1072ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1731ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (576ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (955ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
 Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (112.5 KB). Loaded Objects now: 4819.
-Memory consumption went from 151.8 MB to 151.7 MB.
-Total: 3.509800 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.287700 ms MarkObjects: 2.728600 ms  DeleteObjects: 0.150000 ms)
+Unloading 49 unused Assets / (112.8 KB). Loaded Objects now: 4820.
+Memory consumption went from 152.1 MB to 152.0 MB.
+Total: 4.494300 ms (FindLiveObjects: 0.628000 ms CreateObjectMapping: 0.500900 ms MarkObjects: 3.213200 ms  DeleteObjects: 0.150700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,417 +179,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1840.633521 seconds.
-  path: Assets/FREE Food Pack/Scenes
-  artifactKey: Guid(3edbf5ffaaf409649ae011ecb905379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Scenes using Guid(3edbf5ffaaf409649ae011ecb905379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcdcfb78fa41b7ffcb12cff6a9b3e9b') in 0.023261 seconds 
+  Time since last request: 26213.109773 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/KitchenPackDocs.txt
+  artifactKey: Guid(9debbe36ec638d3428a96482f588f79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/KitchenPackDocs.txt using Guid(9debbe36ec638d3428a96482f588f79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ce7867496647d6210a57095c54b6be') in 0.675756 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FREE Food Pack/Scenes/Food_PresentationSettings.lighting
-  artifactKey: Guid(1d2c2db1019d07947bde2efbc176496a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Scenes/Food_PresentationSettings.lighting using Guid(1d2c2db1019d07947bde2efbc176496a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '4c1878f3e645355c2feed87aa58a9a01') in 0.050356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.611124 seconds.
-  path: Assets/FREE Food Pack/Scenes/Food_Assets.unity
-  artifactKey: Guid(8dc5ecd3f17826f4f9e36532c6030224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Scenes/Food_Assets.unity using Guid(8dc5ecd3f17826f4f9e36532c6030224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92288c5bc262cc89caf31d01c74515e8') in 0.030597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.698357 seconds.
-  path: Assets/FREE Food Pack/Scenes/Food_AssetsSettings.lighting
-  artifactKey: Guid(09388ad56036bc6408cd8d8fca19c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Scenes/Food_AssetsSettings.lighting using Guid(09388ad56036bc6408cd8d8fca19c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '4ee571befc72ed90b53ddb9569c40ebd') in 0.009093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.137852 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464905cf348a3030ff915904016b0176') in 0.004535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.357479 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f1afbebd03e56e7ab50a963167220f') in 0.010028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.335806 seconds.
-  path: Assets/FREE Food Pack/Mesh
-  artifactKey: Guid(4a9263b0838c52a408806bafe3f0c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh using Guid(4a9263b0838c52a408806bafe3f0c486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbe8b0e526202514949f2f01c8b30eb') in 0.027005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.072203 seconds.
-  path: Assets/FREE Food Pack/Mesh/Avocado.fbx
-  artifactKey: Guid(a83ea36fea961a24f9d32eda0adb883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Avocado.fbx using Guid(a83ea36fea961a24f9d32eda0adb883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3f2eff2a45ed3311b093b1059ba77b') in 0.298051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FREE Food Pack/Mesh/Donut.fbx
-  artifactKey: Guid(4526a86407f95894b9d00e13d5ebfc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Donut.fbx using Guid(4526a86407f95894b9d00e13d5ebfc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63e018b35bc230e9de71a0c9cca9a44') in 0.072602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/FREE Food Pack/Mesh/Cheese_02.fbx
-  artifactKey: Guid(a65bc41f54f5afb478ec22c22d371692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Cheese_02.fbx using Guid(a65bc41f54f5afb478ec22c22d371692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54151150278e71b6ce75de37bfca7476') in 0.098518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FREE Food Pack/Mesh/Burger.fbx
-  artifactKey: Guid(430156879fec00b4c8be6e44eab84172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Burger.fbx using Guid(430156879fec00b4c8be6e44eab84172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e6547522e7baeef63c2306864cc59d') in 0.145626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/FREE Food Pack/Mesh/Drink_01.fbx
-  artifactKey: Guid(6931062aeecbb13438f7ad92ef798679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Drink_01.fbx using Guid(6931062aeecbb13438f7ad92ef798679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717364a44c1653b97243a2211b328e0d') in 0.057234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FREE Food Pack/Mesh/Mushroom.fbx
-  artifactKey: Guid(f146753048df47a489d094c6e46d0a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Mushroom.fbx using Guid(f146753048df47a489d094c6e46d0a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d6237cac2c3f6f7a8cc5399ae1ea75') in 0.069361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/FREE Food Pack/Mesh/IceCream.fbx
-  artifactKey: Guid(cbc0632a540e0284f9af379848b5a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/IceCream.fbx using Guid(cbc0632a540e0284f9af379848b5a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f326d495aec63fa3f98f02849a6832') in 0.084125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/FREE Food Pack/Mesh/Chips.fbx
-  artifactKey: Guid(39d0bbd8cb77c27428b7c82b55d16c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Chips.fbx using Guid(39d0bbd8cb77c27428b7c82b55d16c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc7300ac22aa467471c334a611cb7de') in 0.094059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/FREE Food Pack/Mesh/Gyoza.fbx
-  artifactKey: Guid(59f24a1b5c71cc24386b59e448df778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Gyoza.fbx using Guid(59f24a1b5c71cc24386b59e448df778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f196de86a7d6e255ff11f8fdbe0d22') in 0.066759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/FREE Food Pack/Mesh/Omelette.fbx
-  artifactKey: Guid(548aff7ba0442794b8a03675e59f574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Omelette.fbx using Guid(548aff7ba0442794b8a03675e59f574c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b271d1c1b52dbd6b4e23239f0aca178') in 0.082226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/FREE Food Pack/Mesh/Onigiri.fbx
-  artifactKey: Guid(14923c7058afba74482af9e6daa25295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Onigiri.fbx using Guid(14923c7058afba74482af9e6daa25295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f6fc046e8c245cd116b1f92889db62') in 0.079419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/FREE Food Pack/Mesh/Drink_03.fbx
-  artifactKey: Guid(014209c3bbf18fc4fbeb84f674afe82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Drink_03.fbx using Guid(014209c3bbf18fc4fbeb84f674afe82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d3cab1f8675891492718a26c14f3c7') in 0.082950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/FREE Food Pack/Mesh/Food_Presentation.FBX
-  artifactKey: Guid(9c14cf33872586c47917fc3154b2e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Food_Presentation.FBX using Guid(9c14cf33872586c47917fc3154b2e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782c24fd2dfdcf5ea2bd4b8838979130') in 0.079593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/FREE Food Pack/Mesh/Bread.fbx
-  artifactKey: Guid(4003a6e41cba6ab4fbe00f575654cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Bread.fbx using Guid(4003a6e41cba6ab4fbe00f575654cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8935421bfc978415c3a04c5d3b1345') in 0.093192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/FREE Food Pack/Mesh/Croissant.fbx
-  artifactKey: Guid(de7b8a9948f1666449e3f75a1abb6f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Croissant.fbx using Guid(de7b8a9948f1666449e3f75a1abb6f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66786b781560cbb06f3c43ea98d52534') in 0.070253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/FREE Food Pack/Mesh/Chili.fbx
-  artifactKey: Guid(b35c815c74fb6884f9bb74089e03072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Chili.fbx using Guid(b35c815c74fb6884f9bb74089e03072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca39bb29a76f0940662665f422fab142') in 0.080953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.784804 seconds.
-  path: Assets/FREE Food Pack/Mesh/Onion.fbx
-  artifactKey: Guid(56be052822e0d8d459a1d331a09d5f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Onion.fbx using Guid(56be052822e0d8d459a1d331a09d5f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1260b475cf059c1b21b0a0007486e612') in 0.099057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FREE Food Pack/Mesh/Rice_Bowl.fbx
-  artifactKey: Guid(442120c1ba2d6ac4a9caa291dd678060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Rice_Bowl.fbx using Guid(442120c1ba2d6ac4a9caa291dd678060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea644cbac773a415b7d4bd30fd033d1') in 0.052441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FREE Food Pack/Mesh/Pizza.fbx
-  artifactKey: Guid(fec52ddeae99a0745bc188805ff2c7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Pizza.fbx using Guid(fec52ddeae99a0745bc188805ff2c7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842a2c0edc3af4b57cc12d6cd52d9bf4') in 0.065260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FREE Food Pack/Mesh/Salad.fbx
-  artifactKey: Guid(aaf2164196f8d85479afb58cca7fbeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Salad.fbx using Guid(aaf2164196f8d85479afb58cca7fbeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b15d0ea44b8ce8c8694dc736947ac9') in 0.077546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/FREE Food Pack/Mesh/Saucisson.fbx
-  artifactKey: Guid(1d2ed3c151f92f14384ad32733342672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Saucisson.fbx using Guid(1d2ed3c151f92f14384ad32733342672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0479d6e4701b9ed1b570d504aa70c5c9') in 0.052069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.013726 seconds.
-  path: Assets/FREE Food Pack/Mesh/Steak_Uncooked.fbx
-  artifactKey: Guid(2ed673108d59e3b4b907947d50be6c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Steak_Uncooked.fbx using Guid(2ed673108d59e3b4b907947d50be6c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e07e55eb9b93d3250b905a1528c0c9') in 0.034810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FREE Food Pack/Mesh/Watermelon.fbx
-  artifactKey: Guid(d0f2ab72785049643aa6edc83f32d9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Watermelon.fbx using Guid(d0f2ab72785049643aa6edc83f32d9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb03c4c9836f1bc0777c6efb96b112bb') in 0.058681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/FREE Food Pack/Mesh/Tomato.fbx
-  artifactKey: Guid(b3eeac06e2127d64a98cfe86b50eeda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Tomato.fbx using Guid(b3eeac06e2127d64a98cfe86b50eeda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50790811c186456b81c1339f3ebbd2c9') in 0.054030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FREE Food Pack/Mesh/Toast.fbx
-  artifactKey: Guid(89fa4591116121c4b913814b32d75494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/Toast.fbx using Guid(89fa4591116121c4b913814b32d75494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abc565064480515e83012dcb58b8826') in 0.063285 seconds 
+  Time since last request: 2.609933 seconds.
+  path: Assets/ExampleAssets/Materials/Blue.mat
+  artifactKey: Guid(3c62bc7a800059943b550ba530fa1ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Blue.mat using Guid(3c62bc7a800059943b550ba530fa1ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad10d373afb54cf28b15fe8559f09347') in 0.163865 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000049 seconds.
-  path: Assets/FREE Food Pack/Mesh/SweetPepper.fbx
-  artifactKey: Guid(cead1578867b39244a74ceeda55bb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Mesh/SweetPepper.fbx using Guid(cead1578867b39244a74ceeda55bb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ff87fdc8c0181de03401fca0ae792d') in 0.053847 seconds 
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark008.mat
+  artifactKey: Guid(e5308786a0c02d344b68a5fb050fecc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark008.mat using Guid(e5308786a0c02d344b68a5fb050fecc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d714b613d517e66ed42109eb1a1b22') in 0.194574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.886959 seconds.
-  path: Assets/FREE Food Pack/Textures
-  artifactKey: Guid(4d923b7c689632248823e52cbdd99861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Textures using Guid(4d923b7c689632248823e52cbdd99861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15f187e5a317d22389ac9cb4129a87e') in 0.019440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.098308 seconds.
-  path: Assets/FREE Food Pack/Textures/FoodIcons_Atlas.png
-  artifactKey: Guid(37607ec1aab56e349af84a980f685a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Textures/FoodIcons_Atlas.png using Guid(37607ec1aab56e349af84a980f685a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb61ef3ce63f0e2670d427ab06c4d043') in 0.422116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.453128 seconds.
-  path: Assets/FREE Food Pack/Shaders
-  artifactKey: Guid(69be919c496b7c044b8b023bdef2e5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Shaders using Guid(69be919c496b7c044b8b023bdef2e5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c661ff322c433a69990eca1f1ff37a') in 0.018374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.619291 seconds.
-  path: Assets/FREE Food Pack/Shaders/Food.shader
-  artifactKey: Guid(457b78bdb98aa83488f603f5d4907484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Shaders/Food.shader using Guid(457b78bdb98aa83488f603f5d4907484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c9cea8d220ef58f5a806e01aa84d06') in 0.013317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.183412 seconds.
-  path: Assets/FREE Food Pack/Materials/Food_Texture.mat
-  artifactKey: Guid(771491b553c446e4c934acdb0526247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE Food Pack/Materials/Food_Texture.mat using Guid(771491b553c446e4c934acdb0526247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ac1730049c0afd5a975221ceaea76f') in 5.596679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 281.015752 seconds.
-  path: Assets/Mugs, Bowls and Plates/Models
-  artifactKey: Guid(549262015a030634997c92a04cefd72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Models using Guid(549262015a030634997c92a04cefd72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5376f2fe4bda73648d751291b4b25031') in 0.024654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083028 seconds.
-  path: Assets/Mugs, Bowls and Plates/Models/bowl01.fbx
-  artifactKey: Guid(0a73716ae73e9a4468c96965d55b0bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Models/bowl01.fbx using Guid(0a73716ae73e9a4468c96965d55b0bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb94e994f3fbe3b9d448d731cc1ce81') in 24.917608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.250111 seconds.
-  path: Assets/Mugs, Bowls and Plates/sample Scene/Sample Scene.unity
-  artifactKey: Guid(55eae7c92ee2ef2439ddd2b306de06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/sample Scene/Sample Scene.unity using Guid(55eae7c92ee2ef2439ddd2b306de06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3f7b8554fbe8a4f501cece5075cb1c') in 0.019678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.731398 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures
-  artifactKey: Guid(a201716541becb548b878cf276ab1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures using Guid(a201716541becb548b878cf276ab1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83a88627095e214d0acd876ce457ebb') in 0.008219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.117260 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl01.png
-  artifactKey: Guid(01445335764b0e1479b2fca997d2703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl01.png using Guid(01445335764b0e1479b2fca997d2703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06678ab0a02d05d6aaa168c72b6dbcc') in 0.038019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/plate01_nm.png
-  artifactKey: Guid(7609a2f4b0d40b649adcf9c8a58a358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/plate01_nm.png using Guid(7609a2f4b0d40b649adcf9c8a58a358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b16798e4954cd067882355b4da5873c') in 0.263625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/plate01.png
-  artifactKey: Guid(9a167ae82dfcd4a4c9daf88eb4e14ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/plate01.png using Guid(9a167ae82dfcd4a4c9daf88eb4e14ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c4737ca220a5d07fed015f30e69970') in 0.072219 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark005.mat
+  artifactKey: Guid(8c7647522d813cc47a78b7fa3301cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark005.mat using Guid(8c7647522d813cc47a78b7fa3301cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b33d189e32178462f2ae9259343dd8f') in 0.025854 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug03_nm.png
-  artifactKey: Guid(ed9201a4218cb51498fe3432d6470b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug03_nm.png using Guid(ed9201a4218cb51498fe3432d6470b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c082964473409678ddec01de8551ea') in 0.076167 seconds 
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium002.mat
+  artifactKey: Guid(a699471d17aba274985b421c19a94252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium002.mat using Guid(a699471d17aba274985b421c19a94252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d5ca176ff1176950cf02fee4005f5d') in 0.028043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light003.mat
+  artifactKey: Guid(e42c3656c8c2df84a9d71cf28efc7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light003.mat using Guid(e42c3656c8c2df84a9d71cf28efc7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34a8cb1fc9f6dda760bb8dbc777e1fd') in 0.020710 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug01_ao.png
-  artifactKey: Guid(1280f3917e924bb44a04a05ea29cc7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug01_ao.png using Guid(1280f3917e924bb44a04a05ea29cc7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb17c90144cad4e79935e1f4dd8ea074') in 0.198873 seconds 
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium003.mat
+  artifactKey: Guid(230b862e8c108c8458341f79d227e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium003.mat using Guid(230b862e8c108c8458341f79d227e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186dce036cb758710953056e6ad12b85') in 0.027608 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl02_rgh.png
-  artifactKey: Guid(cab4980a98aeff24f8eb62fce1c2c175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl02_rgh.png using Guid(cab4980a98aeff24f8eb62fce1c2c175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f7e63c16a78615d74ee7fe7fb2ad0a') in 0.027978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug02_rgh.png
-  artifactKey: Guid(57c16f0c88f5bb94f8d9b3751a89c4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug02_rgh.png using Guid(57c16f0c88f5bb94f8d9b3751a89c4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b11bf99a2fd908eaf34fef83e25fda1') in 0.083554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl02_ao.png
-  artifactKey: Guid(7b882359bb191ed41a1d8ebc245c35ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl02_ao.png using Guid(7b882359bb191ed41a1d8ebc245c35ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2384ab6c6bfd3a5358849243f1d40504') in 0.044071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl01_nm.png
-  artifactKey: Guid(faed46914cf0cdf48a4f5ecd07ff4483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl01_nm.png using Guid(faed46914cf0cdf48a4f5ecd07ff4483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e42590c597492fec6c14a063795552') in 0.091578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl02_nm.png
-  artifactKey: Guid(43179b4001f325244994e25040fc2553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl02_nm.png using Guid(43179b4001f325244994e25040fc2553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdad57cea9627d3aaa1616d5762c3425') in 0.036778 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Medium002.mat
+  artifactKey: Guid(be6f831a54d3c994d85b5ac840597286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Medium002.mat using Guid(be6f831a54d3c994d85b5ac840597286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f235fef01ff0a2ab8a28bb4a54beae') in 0.021406 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl01_rgh.png
-  artifactKey: Guid(fe68990033a29534399892d17daacba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl01_rgh.png using Guid(fe68990033a29534399892d17daacba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547c47094ef4b2cba0a334b2d8c34590') in 0.030413 seconds 
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark003.mat
+  artifactKey: Guid(c0a49868309264a4c927eda7ad96b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark003.mat using Guid(c0a49868309264a4c927eda7ad96b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902bf41142b7f6f9c319ee07cdd8003b') in 0.019973 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug03_rgh.png
-  artifactKey: Guid(dfd2aa461442aa847a00126ccdb6f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug03_rgh.png using Guid(dfd2aa461442aa847a00126ccdb6f64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7416ac16725ed02769dd9aaaf62637f') in 0.062306 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Light001.mat
+  artifactKey: Guid(16d2cb27650920c41950d9fc5a85834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Light001.mat using Guid(16d2cb27650920c41950d9fc5a85834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5664fd83edb740c5bac1f2580c31e2e') in 0.022535 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/plate01_ao.png
-  artifactKey: Guid(15cb72a226378b34fa4e2f83a77912bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/plate01_ao.png using Guid(15cb72a226378b34fa4e2f83a77912bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500b97d1cfc6388fbb70a6ddcda1ca91') in 0.033425 seconds 
+  Time since last request: 0.000088 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Abstract/Countertop_Abstract_Circles.mat
+  artifactKey: Guid(96349540faa28ec40840ff8eaff29938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Abstract/Countertop_Abstract_Circles.mat using Guid(96349540faa28ec40840ff8eaff29938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b39e9462b5e57c1f0825b2d38d3707b') in 0.022392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug01.png
-  artifactKey: Guid(4bb26df456bb7c24ca9c8ea7a9ef9988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug01.png using Guid(4bb26df456bb7c24ca9c8ea7a9ef9988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f18affd5182fe940ab61b0fca83d6b') in 0.058461 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Abstract/CounterTop_Abstract_Lines.mat
+  artifactKey: Guid(565e6887e3f2cb5429df4508f4e34b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Abstract/CounterTop_Abstract_Lines.mat using Guid(565e6887e3f2cb5429df4508f4e34b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12702bc01b96ce18e5d9194a4b716f9f') in 0.021056 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug02_ao.png
-  artifactKey: Guid(b6dfba9c44712354eb01c5ee1939b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug02_ao.png using Guid(b6dfba9c44712354eb01c5ee1939b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b43ce84baf304b6e38dcbbb4281830') in 0.039028 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light004.mat
+  artifactKey: Guid(265cb201a9f60b341b5e5de13f843511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light004.mat using Guid(265cb201a9f60b341b5e5de13f843511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7ba376d66dec8d2bd66dcb66155703') in 0.020910 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/plate01_rgh.png
-  artifactKey: Guid(3ca90b2267e65b8498c55fab8c85ac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/plate01_rgh.png using Guid(3ca90b2267e65b8498c55fab8c85ac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a701eae2540f54d369a5b56337fe1a2a') in 0.036286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug02_nm.png
-  artifactKey: Guid(7c3644bc2d5fd1a42b9c2b5404900560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug02_nm.png using Guid(7c3644bc2d5fd1a42b9c2b5404900560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586737e13b142b1a62610b7c0dccf6c0') in 0.061740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/bowl03.png
-  artifactKey: Guid(5cdf22552ad6f5144ab48a21d1e4020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/bowl03.png using Guid(5cdf22552ad6f5144ab48a21d1e4020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d946a72f2a85268123eb898b998fe3') in 0.020671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/plate03.png
-  artifactKey: Guid(fe0518dcafb2705469dafe04946cffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/plate03.png using Guid(fe0518dcafb2705469dafe04946cffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff9b08efd173c6743a7b15947f80c40') in 0.029784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug01_nm.png
-  artifactKey: Guid(12d23bebd4e8eb543b91e062a571cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug01_nm.png using Guid(12d23bebd4e8eb543b91e062a571cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fc1cdfa21e6036c91ddf0d094b7e14') in 0.380067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Mugs, Bowls and Plates/Textures/mug03_ao.png
-  artifactKey: Guid(3dac77ab78a6d52448fdf6a5ec940cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Textures/mug03_ao.png using Guid(3dac77ab78a6d52448fdf6a5ec940cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2613b0e2b786e7834d8c384014d1fada') in 0.057271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.139941 seconds.
-  path: Assets/Mugs, Bowls and Plates/Materials
-  artifactKey: Guid(18777e49d88f1a544b274d4b5e4f52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Materials using Guid(18777e49d88f1a544b274d4b5e4f52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07c71dc1ad8d8c924bf2e395548fe1d') in 0.022826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.609782 seconds.
-  path: Assets/Mugs, Bowls and Plates/Materials/mug01_nm.mat
-  artifactKey: Guid(dc5d1e4977bc2ee4ea8108d8dd970716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Materials/mug01_nm.mat using Guid(dc5d1e4977bc2ee4ea8108d8dd970716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2025ab13a7ac9af0eaf94d3126b92e70') in 2.627449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Mugs, Bowls and Plates/Materials/plate01_nm.mat
-  artifactKey: Guid(6f82768c8679bdb47b61438e32fd35b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Materials/plate01_nm.mat using Guid(6f82768c8679bdb47b61438e32fd35b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fc04381c296d9c210ce858fae9ffbc') in 0.075974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Mugs, Bowls and Plates/Materials/plate01.mat
-  artifactKey: Guid(7618fd3202adcc044aa2839d8bca62d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Materials/plate01.mat using Guid(7618fd3202adcc044aa2839d8bca62d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85443aab93e350e638f81d0d098706e0') in 0.089131 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium005.mat
+  artifactKey: Guid(6d9d55628b244684facf5ec280711795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium005.mat using Guid(6d9d55628b244684facf5ec280711795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be70fed62083a04000a2f97febc08752') in 0.019086 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Mugs, Bowls and Plates/Materials/plate01_rgh.mat
-  artifactKey: Guid(cafceaaff42b83445a97f141e19c72a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Materials/plate01_rgh.mat using Guid(cafceaaff42b83445a97f141e19c72a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2ef38024d294caa5024f312f9e2aae') in 0.030847 seconds 
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark004.mat
+  artifactKey: Guid(a7156daf02d7a43478622c8150b0ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark004.mat using Guid(a7156daf02d7a43478622c8150b0ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b1f2f73ffcf5b975f14cf87a2323ee') in 0.021523 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Mugs, Bowls and Plates/Materials/plate03.mat
-  artifactKey: Guid(fc9dd01ed12f14e48820cdde3f621eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mugs, Bowls and Plates/Materials/plate03.mat using Guid(fc9dd01ed12f14e48820cdde3f621eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806e8fd4b9d7e040206a08258e2e7f6e') in 0.043950 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium004.mat
+  artifactKey: Guid(a58bd4e8b35632e4aacedaeb95d2f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium004.mat using Guid(a58bd4e8b35632e4aacedaeb95d2f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50e7f0593126a3de26e0373a78d83fe') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark001.mat
+  artifactKey: Guid(17f1fc47025bfef4791d67717a485c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark001.mat using Guid(17f1fc47025bfef4791d67717a485c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075ccaa7b6a3f6f29a1ca599bc636e1d') in 0.019031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.520741 seconds.
+  path: Assets/FREE Food Pack/Mesh/Avocado.fbx
+  artifactKey: Guid(a83ea36fea961a24f9d32eda0adb883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Avocado.fbx using Guid(a83ea36fea961a24f9d32eda0adb883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c7e6adecb9412a665c2763f2b1984f') in 0.073276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mugs, Bowls and Plates/Models/bowl03.fbx
+  artifactKey: Guid(e84d0732e27a6b440bf3953d81d488bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mugs, Bowls and Plates/Models/bowl03.fbx using Guid(e84d0732e27a6b440bf3953d81d488bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b11c59a46d15f1b74813c2e1739b4ac') in 0.072520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FREE Food Pack/Mesh/Drink_01.fbx
+  artifactKey: Guid(6931062aeecbb13438f7ad92ef798679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Drink_01.fbx using Guid(6931062aeecbb13438f7ad92ef798679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73394e1e084b5a66117a2403f2bef3b') in 0.026005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mugs, Bowls and Plates/Models/bowl02.fbx
+  artifactKey: Guid(abe0f3cb09164c048b3cba749efab044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mugs, Bowls and Plates/Models/bowl02.fbx using Guid(abe0f3cb09164c048b3cba749efab044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29233739e3a4e5c46f9bdeceb39eb718') in 0.040631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FREE Food Pack/Mesh/Chicken.fbx
+  artifactKey: Guid(310f9adb29639fa4f926ddbb52461942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Chicken.fbx using Guid(310f9adb29639fa4f926ddbb52461942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5c9b66c81bd3bdb9d7e35fe2e9b805') in 0.024482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_3Drawer_2.fbx
+  artifactKey: Guid(614553dec7c62284bbe763ef664d7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_3Drawer_2.fbx using Guid(614553dec7c62284bbe763ef664d7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f632665510de30eb408355576721da') in 0.099148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_3Drawer_1.fbx
+  artifactKey: Guid(01521df6a64b5344aa220132bf30e28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_3Drawer_1.fbx using Guid(01521df6a64b5344aa220132bf30e28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063e8e20da6cdd789ff30ef5dc182a73') in 0.111008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_2Drawer.prefab
+  artifactKey: Guid(c59627f073979184b9f49ac7b76e3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_2Drawer.prefab using Guid(c59627f073979184b9f49ac7b76e3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f07bf92042d56ea43aa2084ea66e239') in 0.030815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_Standard.prefab
+  artifactKey: Guid(2e5cd4f1c15e26f41b81566598d56531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_Standard.prefab using Guid(2e5cd4f1c15e26f41b81566598d56531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6daf0329c51adf28ee7f27641b9b0f') in 0.029757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_3Drawer_2.prefab
+  artifactKey: Guid(6dc4eec1bac53004e91f7ed5f952b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_3Drawer_2.prefab using Guid(6dc4eec1bac53004e91f7ed5f952b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c145264b0f37cc5e5f5dbc0089a05955') in 0.225643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FREE Food Pack/Mesh/Chips.fbx
+  artifactKey: Guid(39d0bbd8cb77c27428b7c82b55d16c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Chips.fbx using Guid(39d0bbd8cb77c27428b7c82b55d16c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f411a265d23962d2a6ae5f773ac24071') in 0.034305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mugs, Bowls and Plates/Models/bowl01.fbx
+  artifactKey: Guid(0a73716ae73e9a4468c96965d55b0bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mugs, Bowls and Plates/Models/bowl01.fbx using Guid(0a73716ae73e9a4468c96965d55b0bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a06a8c520e0d2a02b11281e396685e') in 0.037875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_Standard.fbx
+  artifactKey: Guid(ae7c0043bb400254391ae61fac76ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_Standard.fbx using Guid(ae7c0043bb400254391ae61fac76ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2776ad1443f1c2dc7f77ae2b78f72d97') in 0.052435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FREE Food Pack/Mesh/Bread.fbx
+  artifactKey: Guid(4003a6e41cba6ab4fbe00f575654cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Bread.fbx using Guid(4003a6e41cba6ab4fbe00f575654cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fda6eac8a48c83612da4324bbbcaec') in 0.027206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FREE Food Pack/Mesh/Eclair_Chocolate.fbx
+  artifactKey: Guid(1eca6ca9aebee584bad5eae34c02b305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Eclair_Chocolate.fbx using Guid(1eca6ca9aebee584bad5eae34c02b305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cd74667f8364d2310184cd67450773') in 0.028799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FREE Food Pack/Mesh/Croissant.fbx
+  artifactKey: Guid(de7b8a9948f1666449e3f75a1abb6f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Food Pack/Mesh/Croissant.fbx using Guid(de7b8a9948f1666449e3f75a1abb6f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c769ec155b3056e115611abe47e0d69f') in 0.028484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_3Drawer_1.prefab
+  artifactKey: Guid(f52bf9d31a4b7c243a3810895f9bc39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Counter_3Drawer_1.prefab using Guid(f52bf9d31a4b7c243a3810895f9bc39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe3e391c527029165530bbc4175e008') in 0.022664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Dishwasher_Stainless.prefab
+  artifactKey: Guid(ff0c40ae2d3241249a3d79a3a1e24d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Prefabs/Dishwasher_Stainless.prefab using Guid(ff0c40ae2d3241249a3d79a3a1e24d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebb15433a9c90b60889d9a98bf1bf76') in 0.023047 seconds 

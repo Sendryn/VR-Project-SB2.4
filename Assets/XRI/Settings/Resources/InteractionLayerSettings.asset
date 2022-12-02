@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - Red
-  - Green
-  - Blue
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - RED
+  - BLUE
+  - GREEN
+  - Salad
+  - Egg
+  - Tomato
+  - Rice
+  - Watermelon
+  - Chicken
+  - Banana
+  - Fries
+  - Wine
+  - Burger
+  - Chips
+  - Donut
+  - Pizza
   - 
   - 
   - 
